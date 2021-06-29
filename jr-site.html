@@ -2,143 +2,279 @@
 <html lang="en">
 	<head>
 		<title>Home Page | Justice Reskill</title> 
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css"/>
 	</head>
 	<body>
-		<div class="nav">
-			
-				<a class="logo"  href="https://justicereskill.com"><img style="height:50px; width:170px;" class="img-fluid" src="justicereskill_logo.png"/></a>
-			
-			<!-- dropdown for students -->
-			<!-- dropdown for fair chance hiring -->
-			
-				<a class="story" href="thestoriesofjustice.com">Stories of Justice Project</a>
-			
-			
-				<button type="button" a href="https://justicereskill.recruitee.com">Fair Chance Careers</a></button>  
-			
-			
-				<button type="button" a href="https://justicereskill.com/launch">JR Launch</a></button>
-			
-		</div>
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<a class="logo"  href="https://justicereskill.com"><img style="height:50px; width:180px;" class="img-fluid" src="justicereskill_logo.png"/></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span> 
+				</button>
+				<div class="dropdown">
+					<a class="btnn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Students
+					</a>
+				  
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+					  <a class="dropdown-item" href="https://justicereskill.com/students/">Student Info</a>
+					  <a class="dropdown-item" href="https://justicereskill.com/student-application/">Student Application</a>
+					</div>
+				  </div>
+				  <div class="dropdown">
+					<a class="btnn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  Fair Chance Hiring 
+					</a>
+				  
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+					  <a class="dropdown-item" href="https://fairchancehiring.co/">The Network</a>
+					  <a class="dropdown-item" href="https://careers.fairchancehiring.co/">Careers</a>
+					  <a class="dropdown-item" href="https://careers.fairchancehiring.co/onboarding/">Talent Network</a> 
+					</div>
+				  </div>
+				  <div class="navbar-nav">
+					<div class="nav-item active">
+					  <a class="nav-link" href="http://thestoriesofjustice.com/">Stories of Justice Project<span class="sr-only">(current)</span></a>
+					</div>
+					<div class="nav-item">
+						<a class="nav-link" href="https://justicereskill.recruitee.com/"><button type="button" class="btn btn-primary">Fair Chance Careers</button></a>
+					</div>
+					<div class="nav-item">
+					  <a class="nav-link" href="https://justicereskill.com/launch"><button type="button" class="btn btn-danger">JR Launch</button></a>
+					</div>
+					
+				  </ul>
+				</div>
+			</nav>
 
-		<div class="grid-container1">
-			<div class="grid-child1">
-			<h1><strong> Reskilling America's <br> Justice-Involved <br> Community </strong></h1>
-			<p><b>Building new futures for the justice-involved community</b></p> 
-			<p>Justice Reskill offers the justice-involved community much <br>  more than a fresh start or a second chance. With training in <br> high-level technical skills and essential career-focused support, <br> we're empowering jsutice-involved individuals to transcend <br> personal and societal limitations to secure long-term <br> professional & financial success.</p>
-			</div>
-		
-			<div class="grid-childimg">
-				<img src="journal.jpeg" alt="man writing in journal" />
-			</div>
-		</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="reskill">
+						<h1><strong> Reskilling America's <br> Justice-Involved <br> Community </strong></h1>
+						<br>
+						<p><b><span style="font-weight:400;">Building new futures for the justice-involved community</span></b></p> 
+						<p><span style="font-weight:300;">Justice Reskill offers the justice-involved community much <br>  more than a fresh start or a second chance. With training in <br> high-level technical skills and essential career-focused support, <br> we're empowering jsutice-involved individuals to transcend <br> personal and societal limitations to secure long-term <br> professional & financial success.</span></p>
+					</div>
+				</div>
 
-
-		<div class="grid-container2">
-			<div class="grid-child2">
-				<h2>The justice-involved community <br> faces often insurmountable odds <br> towards reentry</h2>
-			</div>
-			<div class="grid-child22">
-				<ul>
-					<li><small>Among the 70 million formerly incarcerated folks in th US, about 27% are unemployed</small></li>
-					<li><small>Between 60-75% are unemployed 1 year after release</small></li>
-					<li><small>50-63% are less likely to get a job application callback</small></li>
-					<li><small>Individuals net worth decreases $47,500 in the years after incarceration</small></li>
-				</ul>
-				<small>Source: <a href="https://data.equitysolutionsio/JR_Website_PrisonPolicyReport">2018 Prison Policy Report</a> & <a href="https://data.equitysolutions.io/JR_Website_CFA_Report">The Center for America Progress</a></small>
-			</div>
+				<div class="col-md-6">
+						<img class="journal" src="journal.jpeg" alt="man writing in journal" width="680"/>
+				</div>
 			</div>
 
-			<div class="grid-container3">
-			<div class="grid-child3">
-				<h2>Racial and ethnic disparities are a <br> defining characteristic of our <br> criminal justice system.</h2>
-			</div>
-			<div class="grid-child33">
-			<ul>
-			<li><small>Black Americans make up only 13% of the US population but 40% of our prison population</small></li>
-			<li><small>Latino/Hispanic Americans make up only 16% of the US population but 19% of our prison population</small></li>
-		</ul>
-			</div>
+			<div class="reentry row">
+				<div class="col-md-6">
+					<div>
+						<h2 class="stat">The justice-involved community <br> faces often insurmountable odds <br> towards reentry</h2>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="aside">
+						<ul>
+							<li class="stats">Among the 70 million formerly incarcerated folks in th US, about 27% are unemployed</li>
+							<li class="stats">Between 60-75% are unemployed 1 year after release</li>
+							<li class="stats">50-63% are less likely to get a job application callback</li>
+							<li class="stats">Individuals net worth decreases $47,500 in the years after incarceration</li>
+						</ul>
+						<p class="source">Source: <a class="sources" href="https://data.equitysolutionsio/JR_Website_PrisonPolicyReport">2018 Prison Policy Report</a> & <a class="sources" href="https://data.equitysolutions.io/JR_Website_CFA_Report">The Center for America Progress</a> </p>
+					</div>
+				</div>
 			</div>
 
-	<div class="container">
-		<h3 style="font-size:33px;"><b>Our Solution</b></h3>	
-		<p>Justice Reskill works to secure greater opportunity and <br>  long-term financial stability for the justice-involved <br> community. With our accessible learning platform and our <br> vibrant network of support, we equip our participants with <br> the resources and environment they need to achieve lasting <br> career success.</p>
-	</div> 
+			<div class="reentry row">
+				<div class="col-md-6">
+					<div>
+						<h2 class="stat">Racial and ethnic disparities are a <br> defining characteristic of our <br> criminal justice system.</h2>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="aside">
+						<ul>
+							<li class="stats">Black Americans make up only 13% of the US population but 40% of our prison population</li>
+							<li class="stats">Latino/Hispanic Americans make up only 16% of the US population but 19% of our prison population</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row"> 
+				<div class="col-md-4"></div>
+				<div class="solution col-md-4">
+					<h3 style="font-size:30px; text-align:center;"><b>Our Solution</b></h3>	
+					<p class="p">Justice Reskill works to secure greater opportunity and <br>  long-term financial stability for the justice-involved <br> community. With our accessible learning platform and our <br> vibrant network of support, we equip our participants with <br> the resources and environment they need to achieve lasting <br> career success.</p>
+				</div>
+				<div class="col-md-4"></div>
+			</div> 
 
 	
-	<div class="grid-container4">
-		<div class="grid-childWG">
-		<h5 id="h"><b>Wealth Generation</b></h5>
-		<p id="p">We set our  participants on a <br> course to earn true career-level <br> wages, which are crucial for <br> accumulating the personal and <br> family savings necessary to take <br> on future opportunities and overcome inevitable setbacks.</p>
-		</div>
-		<div class="grid-childC">
-		<h5 id="h"><b>Community</b></h5>
-		<p id="p">Community is not a given for <br> many justice-involved <br> individuals; thus, we actively <br> cultivate a sense of belonging for <br> all participants, along with an <br> inclusive professional network <br> that we hope offers lifelong <br> career support.</p>
-		</div>
-		<div class="grid-childFFS">
-		<h5 id="h"><b>Future-Focused Skills</b></h5>
-		<p id="p">Unlike existing learn-to-code <br> platforms, which focus <br> exclusively on technical skills, <br> we also equip our participants with <br> the "soft" skills and knowledge <br> needed to thrive in a <br> technology-related career.</p>
-		</div>
-		<div class="grid-childWPS">
-		<h5 id="h"><b>Whole Person Support</b></h5>
-		<p id="p">To fix the broken journeys of our <br> community, we must eliminate <br> barriers like lack of access, <br> mental health issues, and <br> financial illiteracy. We confront <br> these realities with intentional <br> programming and partnerships focused on strengthening the <br> whole person.</p>
-		</div>
-	</div>
+			<div class="row solutions">
+				<div class="col-md-3">
+					<div class="box">
+						<h5 class="h"><b>Wealth Generation</b></h5>
+						<p class="p">We set our  participants on a <br> course to earn true career-level <br> wages, which are crucial for <br> accumulating the personal and <br> family savings necessary to take <br> on future opportunities and overcome inevitable setbacks.</p>
+					</div> 
+				</div>
+				<div class="col-md-3">
+					<div class="box">
+						<h5 class="h"><b>Community</b></h5>
+						<p class="p">Community is not a given for <br> many justice-involved <br> individuals; thus, we actively <br> cultivate a sense of belonging for <br> all participants, along with an <br> inclusive professional network <br> that we hope offers lifelong <br> career support.</p>
+					</div>
+				</div> 
+				<div class="col-md-3">
+					<div class="box">
+						<h5 class="h"><b>Future-Focused Skills</b></h5>
+						<p class="p">Unlike existing learn-to-code <br> platforms, which focus <br> exclusively on technical skills, <br> we also equip our participants with <br> the "soft" skills and knowledge <br> needed to thrive in a <br> technology-related career.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="box">
+						<h5 class="h"><b>Whole Person Support</b></h5>
+						<p class="p">To fix the broken journeys of our <br> community, we must eliminate <br> barriers like lack of access, <br> mental health issues, and <br> financial illiteracy. We confront <br> these realities with intentional <br> programming and partnerships focused on strengthening the <br> whole person.</p>
+					</div>
+				</div>
+			</div>
 	
 
-	<div class="partners">
-		<h3 style="font-size:35px;"><strong>Partners & Supporters</strong></h3>
-		<img src="partners.jpeg" alt="partners and supporters logos"/>
-	</div>
-	<br>
-	<br>
-	<footer class="footer">
-		<div class="grid-container5">
-			<div class="grid-childH">
-				<a class="logo"  href="https://justicereskill.com"><img style="height:50px; width:170px;" class="img-fluid" src="justicereskill_logo.png"/></a>
-			<br> 
-			<small>2021 All rights reserved.</small>
+			<div class="partners">
+				<h3 style="font-size:35px;"><strong>Partners & Supporters</strong></h3>
 			</div>
-			<div class="grid-childSR">
-				<h5 class="f"><b>Student Resources</b></h5>
-				<a id="link"href="https://justicereskill.com/student-application/">Student Application</a>
-				<br>
-				<a id="link" href="https://justicereskill.com/students/">Student Info</a>
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-1">
+							<a class="ps" href="https://ucarecdn.com/9c1567ed-65b3-4164-89a7-092c595b4714/anchor-point-foudation-logo-.png"><img class="img-fluid" src="Partners-imgs/anchor-point-foudation-logo-.png" alt="anchor point logo" height="80px" width="80px"></a>
+						</div>
+						<div class="col-md-1">
+							<a class="ps" href="https://ucarecdn.com/bbfe5d09-960d-4162-af98-8bfab93dc50e/black-at-netflix.png"><img class="img-fluid" src="Partners-imgs/black-at-netflix.png" alt="black at netflix logo"></a>
+						</div>
+						<div class="col-md-1">
+							<a class="ps" href="https://ucarecdn.com/2513e8c7-fb23-4004-ab7f-a65d65e328a5/somos.png"><img class="img-fluid" src="Partners-imgs/somos.png" alt="red somos logo"></a>
+						</div>
+						<div class="col-md-1">
+							<a class="ps" href="https://ucarecdn.com/2b675b99-fb23-4b5b-aa18-cfd93529921f/sondermind-logo-hero-image.png"><img class="img-fluid" src="Partners-imgs/sondermind-logo-hero-image.png" alt="sondermind logo"></a>
+						</div>
+						<div class="col-md-4"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="col-md-2">
+							<a class="ps" href="https://ucarecdn.com/1d7405ee-7ec4-4380-ab3a-417517f60f97/good-business-colorado-logo-.png"><img class="img-fluid" src="Partners-imgs/good-business-colorado-logo-.png" alt="good business colorado logo"></a>
+						</div>
+						<div class="col-md-2">
+							<a class="ps" href="https://ucarecdn.com/7509f89f-f1b0-4b83-8597-6717970dfdc1/eri-direct-logo.png"><img class="img-fluid" src="Partners-imgs/eri-direct-logo.png" alt="eri direct logo"></a>
+						</div>
+						<div class="col-md-2">
+							<a class="ps" href="https://ucarecdn.com/412fa0bb-f393-48db-b9d6-20427c1841bf/coursera-logo.png"><img class="img-fluid" src="Partners-imgs/coursera-logo.png" alt="blue coursera logo"></a>
+						</div>
+						<div class="col-md-3"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="col-md-2">
+							<a class="ps" href="https://ucarecdn.com/e8f65a8d-9947-48f2-8268-b5d846d935f2/defy-ventures-colorado-logo--.png"><img class="img-fluid" src="Partners-imgs/defy-ventures-colorado-logo--.png" alt="defy ventures colorado logo"></a>
+						</div>
+						<div class="col-md-2">
+							<a class="ps" href="https://ucarecdn.com/d870f6a8-d83d-4960-8f2c-80aa2314d2bf/codio-logo-.png"><img class="img-fluid" src="Partners-imgs/codio-logo-.png" alt="codio logo"></a>
+						</div>
+						<div class="col-md-2">
+							<a class="ps" href="https://ucarecdn.com/2aae8eb0-2ecc-43a6-95db-60dbc4f89951/code-talent-logo.png"><img class="img-fluid" src="Partners-imgs/code-talent-logo.png" alt="code talent logo"></a>
+						</div>
+						<div class="col-md-3"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="col-md-2">
+							<a class="ps" href="https://ucarecdn.com/b19f7558-c873-487b-982a-5289008932d3/ti-logo.png"><img class="img-fluid" src="Partners-imgs/ti-logo.png" alt="ti logo"></a>
+						</div>
+						<div class="col-md-2">
+							<a class="ps" href="https://ucarecdn.com/5857a00e-8a91-488c-967e-02ed28e17b02/checkr-logo.png"><img class="img-fluid" src="Partners-imgs/checkr-logo.png" alt="checkr logo"></a>
+						</div>
+						<div class="col-md-2">
+							<a class="ps" href="https://ucarecdn.com/44c5d848-a239-4ce2-89ef-5e0a3cfb913d/longmont-community-foundation--logo.png"><img class="img-fluid" src="Partners-imgs/longmont-community-foundation--logo.png" alt="longmont community foundation logo"></a>
+						</div>
+						<div class="col-md-3"></div>
+					</div>
+					<div class="row">
+						<div class="col-md-3"></div>
+						<div class="col-sm-4 col-md-2">
+							<a class="ps" href="https://ucarecdn.com/35eab28b-8bff-4ff2-a2e7-eefec5d41b41/remerg-logo.png"><img class="img-fluid" src="Partners-imgs/remerg-logo.png" alt="remerg logo"></a>
+						</div>
+						<div class="col-sm-4 col-md-2">
+							<a class="ps" href="https://ucarecdn.com/99d29bcd-7609-4434-bb83-fa5e9683c302/mhwlogo-rev.png"><img class="img-fluid" src="Partners-imgs/mhwlogo-rev.png" alt="mhw logo"></a>
+						</div>
+						<div class="col-sm-4 col-md-2">
+							<a class="ps" href="https://ucarecdn.com/8cdddb36-9fe3-4886-99c8-f8658992e34c/sturm-college-of-law-logo.png"><img class="img-fluid" src="Partners-imgs/sturm-college-of-law-logo.png" alt="sturm college of law logo"></a>
+						</div>
+						<div class="col-md-3"></div>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
 			</div>
-			<div class="grid-childCP">
-				<h5 class="f"><b>Community Partners</b></h5>
-				<a id="link" href="https://justicereskill.com/community-partners/">Contact Us</a>
-				<br>
-				<a id="link" href="https://fairchancehiring.co">Fair Chance Hiring</a>
-			</div>
-			<div class="grid-childD">
-				<h5 class="f"><b>Donate</b></h5>
-				<a id="link" href="https://techstars.org/org/justice-reskill/">Techstars Accelerate Equity</a>
-			</div>
-			<div class="grid-childFU">
-				<h5 class="f"><b>Follow Us</b></h5>
-				<img src="" a href="https://twitter.com/JusticeReskill"/></a>
-				<img src="" a href="https://www.linkedin.com/company/justicereskill"/></a>
-				<img src="" a href="https://www.facebook.com/JusticeReskill"/></a>
-				<img src="" a href="https://instagram.com/justicereskill"/></a>
-			</div>
-		</div>
 
-	<hr/>
+			<br>
+			<br>
 
-	<div class="bottom">
-		<button type="button" a href="https://jsuticereskill.com/student-application/">Student Application</button>
-		<button type="button" a href="https://justicereskill.com/launch">Justice Reskill Launch</button>
-		<button type="button" a href="https://justicereskill.com/news/we-are-justice-reskill/">News & Stories</button>
+			<div class="bottom">
+				<footer class="footer">
+					<div class="row list">
+						<div class="resource col-md-1"></div>
+						<div class="resource col-6 col-md-2">
+							<a class="logo" href="https://justicereskill.com"><img style="height:50px; width:180px;" class="img-fluid" src="justicereskill_logo.png"/></a>
+							<br> 
+							<small><span style="color:grey">2021 All rights reserved.</span></small>
+						</div>
+						<div class="resource col-6 col-md-2">
+							<h5 class="resources"><b>Student Resources</b></h5>
+							<a class="R link" href="https://justicereskill.com/student-application/">Student Application</a>
+							<br>
+							<a class="R link" href="https://justicereskill.com/students/">Student Info</a>
+						</div>
+						<div class="resource col-6 col-md-2">
+							<h5 class="resources"><b>Community Partners</b></h5>	
+							<a class="R link" href="https://justicereskill.com/community-partners/">Contact Us</a>
+							<br>
+							<a class="R link" href="https://fairchancehiring.co">Fair Chance Hiring</a>
+						</div>
+						<div class="resource col-6 col-md-2">
+							<h5 class="resources"><b>Donate</b></h5>
+							<a class="R link" href="https://techstars.org/org/justice-reskill/">Techstars Accelerate Equity</a>
+						</div>
+						<div class="resource col-6 col-md-2">
+							<h5 class="resources"><b>Follow Us</b></h5>
+							<a href="https://twitter.com/JusticeReskill"><img class="social" src="Follow Us-imgs/twitter.svg" alt="twitter logo, bird"></a>
+							<a href="https://www.linkedin.com/company/justicereskill"><img class="social" src="Follow Us-imgs/linkedin.svg" alt="linkedin logo, L"></a>
+							<a href="https://www.facebook.com/JusticeReskill"><img class="social" src="Follow Us-imgs/facebook.svg" alt="facebook logo, F"></a>
+							<a href="https://instagram.com/justicereskill"><img class="social" src="Follow Us-imgs/instagram.svg" alt="instagram logo, camera"></a>
+						</div>
+						<div class="resource col-md-1"></div>
+					</div>
+				
+					<hr width="75%">
 
-		<div class="link">
-		<a id="link" href="mailto:hello@justicereskill.com"><small>hello@justicereskill.com</small></a>
-		<a id="link" href="https://justicereskill.com/privacy-policy"><small>Privacy Policy</small></a>
-		</div>
-	</div>
+					<div class="b-foot">
+						<div class="row">
+							<div class="col-md-1"></div>
+							<div class="col-md-5"> 
+								<button type="button" class="more btn btn-primary" a href="https://jsuticereskill.com/student-application/">Student Application</button>
+								<button type="button" class="more btn btn-danger" a href="https://justicereskill.com/launch">Justice Reskill Launch</button>			
+								<button type="button" class="more btn btn-primary" a href="https://justicereskill.com/news/we-are-justice-reskill/">News & Stories</button>
+							</div>
+							<div class="col-md-2"></div>
+							<div class="col-md-2"> 
+								<a class="link2" href="mailto:hello@justicereskill.com"><small>hello@justicereskill.com</small></a>
+								<a class="link2" href="https://justicereskill.com/privacy-policy"><small>Privacy Policy</small></a>
+							</div>
+							<div class="col-md-2"></div>
+						</div>
+					</div>
+				</footer>
+			</div>
 
-	</footer>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	</body>
 </html>
